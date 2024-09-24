@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .main{
+            height: 15vh;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .im{
+            height: 70%;
+            width: 70%;
+        }
+        .im img{
+            height: 30px;
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+        nav{
+            width: 100%;
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+            /* border: 3px solid white; */
+        }
+        nav ul li{
+            color: orange;
+            padding-bottom: 5px;
+        }
+        .back img{
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+        }
+        .text{
+            height: 30vh;
+            width: 70%;
+            /* border: 2px solid; */
+            position: absolute;
+            top: 0%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: auto;
+            left: 15%;
+            margin-top: 16%;
+        }
+        h1{
+            font-size: 45px;
+            color: rgb(197, 122, 47);
+        }
+        p{
+            color: white;
+            margin: auto;
+        }
+        button{
+            background-color: transparent;
+            color: white;
+            border-radius: 5px;
+            border-color: white;
+            margin: auto;
+            font-size: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="im"><img src="./logo.png" alt=""></div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Course</li>
+                <li>Register</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="back">
+        <img src="./background.png" alt="">
+        <div class="text">
+            <h1>Indias No1 training institute</h1>
+            <p>To become a full-stack developer now you can join with us</p>
+            <button>Click me to join</button>
+        </div>
+    </div>
+</body>
+</html>
