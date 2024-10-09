@@ -26,7 +26,8 @@ To run this project locally, follow these steps:
 - This template can be used as a landing page for any educational or training institute, helping to attract new students.
 
 Example layout:
-![Screenshot](./screenshot.png)
+![image](https://github.com/user-attachments/assets/44fff49c-aae7-4c13-b329-fe57bea6089a)
+
 
 ## Features
 - **Responsive Design**: The layout adapts to various screen sizes.
